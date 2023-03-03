@@ -2175,7 +2175,7 @@ section {
   text-transform: uppercase;
   line-height: 0;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
   .team_subsub{
 left: 20rem;
 }
