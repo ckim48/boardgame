@@ -370,7 +370,7 @@ h6 {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(30, 35, 40, 0.5);
+  background-color: rgba(30, 35, 40, 0.20);
 }
 
 #hero .carousel-container {
@@ -398,6 +398,7 @@ h6 {
 #hero p {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
+  font-size: 18px;
   margin: 0 auto 5px auto;
   color: #fff;
 }
@@ -947,7 +948,12 @@ section {
   height:140px;
   border-radius: 20px;
 }
-
+.pic2{
+  transition: 0.5s;
+}
+.pic2:hover{
+  transform: scale(1.05);
+}
 .team .member .pic2 img {
   transition: ease-in-out 0.3s;
 }
@@ -2169,10 +2175,18 @@ section {
   text-transform: uppercase;
   line-height: 0;
 }
+@media (min-width: 1500px) {
+  .team_subsub{
+left: 20rem;
+}
+}
 .text-red{
   color: #d9232d;
 }
+.slide-bg{
 
+  background-color: rgba(33,33,33,0.5);
+}
 .team_subsub2{
   position: absolute;
   color: #F3F3F3;
